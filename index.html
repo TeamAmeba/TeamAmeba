@@ -1,140 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Team Ameba</title>
-	<meta name="description" content="Source code generated using layoutit.com">
-	<meta name="author" content="LayoutIt!">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="/img/favicon.png">
+	<meta name="description" content="Equipo desarrollo juegos web">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU'
+	 crossorigin='anonymous'>
 	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMobile"
-		 aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="/img/logo-equipo.png" id="logo" width="auto" height="70" class="d-inline-block align-top teamlogo" alt="ameba-team">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+		 aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="nav-left">
-			<ul class="nav navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Juegos</a>
+		<div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+			<ul class="navbar-nav flex-nowrap">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
 				</li>
-			</ul>
-		</div>
-
-		<a class="navbar-brand mx-auto" href="#">
-			<div id="logo">
-			</div>
-		</a>
-
-		<div class="collapse navbar-collapse" align="center">
-			<ul class="nav navbar-nav ml-auto btn-log">
-			</ul>
-		</div>
-
-		<!-- Mobile -->
-		<div class="collapse" id="navbarMobile">
-			<ul class="nav navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Beware The Candy Kids</a>
+					<a class="nav-link" href="#juegos">Nuestros Juegos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#equipo">Sobre nosotros</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<div class="slider">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<a href="#equipo"><img class="d-block w-100" src="img/slider-team.png" alt="First slide"></a>
+			</div>
+			<div class="carousel-item">
+				<a targe="blank" href="https://teamameba.github.io/bewarethecandykids/"><img class="d-block w-100" src="img/slide-candy.png" alt="Second slide"></a>
+			</div>
+		</div>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h1 class="text-center">
+			<a id="juegos"></a>
+			<div class="col-md-12 mt-4">
+				<h2 class="text-center">
 					Descubre los divertidos juegos de Team Ameba
-				</h1>
+				</h2>
+				<hr>
 				<div class="row">
 					<div class="col-md-6" align="center">
-						<p>BEWARE THE CANDY KIDS</p>
+						<img src="img/icon-bwtk.png" alt="bewarethecandykids" style="height: 300px; width:auto;">
 						<br>
-						<button type="button" class="btn btn-success play-button btn-lg"
-						onclick="window.location.href='https://teamameba.github.io/bewarethecandykids/'">
-							JUGAR
+						<button type="button" class="btn btn-success play-button btn-lg" onclick="window.location.href='https://teamameba.github.io/bewarethecandykids/'">
+							JUGAR AHORA
 						</button>
 					</div>
 					<div class="col-md-6" align="center">
-						<p>COOK SAVE THE QUEEN</p>
+						<img src="img/placeholder-gctq.png" alt="bewarethecandykids" style="height: 300px; width:auto;">
 						<br>
 						<button type="button" class="btn btn-success play-button btn-lg">
-							PRÓXIMAMENTE
+							PRÓXIMAMENTE...
 						</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<a id="contacto"></a>
+	<div class="jumbotron jumbotron-fluid" style="background-color:#ff8e4a;">
+		<div class="container">
+			<div class="row">	
+				<div class="col-md-6">
+					<h2 class="display-4" style="color: white;">¿Necesitas contactar con nosotros?</h2>
+					<p class="lead" style="color: white;">Puedes hacerlo mediante nuestras redes sociales o los datos que te
+						facilitamos a continuación
+						¡Estamos encantados de poder ayudarte!</p>
+					<p>
+						<i class='fas fa-map-marker-alt icon-style' style='font-size:24px; color: white;'><span>Universidad Rey Juan
+								Carlos,
+								Móstoles (Madrid)</span></i>
+						<br>
+						<i class='far fa-envelope icon-style' style='font-size:24px; color: white;'><span>teamameba@gmail.com</span></i><br>
+
+						<i class='fas fa-mobile-alt icon-style' style='font-size:24px; color: white;'><span>684 37 65 24</span></i>
+					</p>
+					<a href="#"><i class='fab fa-facebook' style='font-size:48px;color:white'></i></a>
+					<a href="https://github.com/TeamAmeba"><i class='fab fa-github' style='font-size:48px;color:white'></i></a>
+				</div>
+				<div class="col-md-6 align-middle text-right" style="color: white;">
+					<img src="img/banner-image-team-ameba.png" alt="juegos-team-ameba" height="400" width="auto">
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="container">
+		<a id="equipo"></a>
 		<div class="row">
-			<div class="col-md-12" align="center">
-				<h3 class="text-center">
-					Conoce a Team Ameba
-				</h3>
-				<p>
-					Desde Team Ameba trabajamos cada día para ofrecer los mejores juegos. ¡JUEGA!
+			<div class="col-md-12 mt-4" align="center">
+				<h2 class="text-center">
+					<strong>¿Quiénes somos?</strong>
+				</h2>
+				<hr>
+				<p style="font-size: 18px;">
+					Team Ameba está formado por un pequeño equipo de cinco personas dispuestas a darlo todo en el mundo de los
+					videojuegos. Con origen en 2018 como proyecto start-up, Team Ameba es formada por cinco estudiantes universitarios
+					con el único objetivo de crear un entretenimiento web interactivo a la altura.
 				</p>
 				<div class="row">
 					<div class="col-md-1">
 					</div>
 					<div class="col-md-2">
-						
+						<img src="img/angel-foto.jpg" class="img-fluid rounded " alt="angel">
 						<p>José Ángel Cívico Martos</p>
+						<div class="alert alert-warning" role="alert">Artista 2D</div>
 					</div>
 					<div class="col-md-2">
-						
+						<img src="img/victor-foto.jpg" class="img-fluid rounded " alt="angel">
 						<p>Víctor Manuel Palma Morales</p>
+						<div class="alert alert-warning" role="alert">Diseño y desarrollo Web</div>
 					</div>
 					<div class="col-md-2">
-						
+						<img src="img/dani-foto.jpg" class="img-fluid rounded " alt="angel">
 						<p>Daniel de la Peña González</p>
+						<div class="alert alert-warning" role="alert">Compositor de música y sonido</div>
 					</div>
 					<div class="col-md-2">
-						
-						<p>Alberto Egea García</p>
+						<img src="img/alberto-foto.jpg" class="img-fluid rounded " alt="angel">
+						<p>Alberto Egea García</p><br>
+						<div class="alert alert-warning" role="alert">Programador</div>
 					</div>
 					<div class="col-md-2">
-						
-						<p>Juan Jimenez Gálvez</p>
+						<img src="img/juan-foto.jpg" class="img-fluid rounded " alt="angel">
+						<p>Juan Jimenez Gálvez</p><br>
+						<div class="alert alert-warning" role="alert">Programador y Level Designer</div>
 					</div>
 					<div class="col-md-1">
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 
 	<footer>
 		<div class="row" align="center">
 			<div class="col-md-4">
-				<h3 style="color:dimgrey;">
+				<p style="color:dimgrey;">
 					Team Ameba @2018
-				</h3>
+				</p>
 			</div>
 			<div class="col-md-4">
-				<h3 style="color:dimgrey;">
-					Social media
-				</h3>
+
 			</div>
 			<div class="col-md-4">
-				<h3 style="color:dimgrey;">
-					Enlaces de privacidad
-				</h3>
+					<a href="#"><i class='fab fa-facebook' style='font-size:25px;color:dimgrey;'></i></a>
+					<a href="https://github.com/TeamAmeba"><i class='fab fa-github' style='font-size:25px;color:dimgrey;'></i></a>
 			</div>
 		</div>
 	</footer>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
 </body>
 
 </html>

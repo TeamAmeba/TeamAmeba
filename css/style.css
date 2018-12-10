@@ -1,42 +1,28 @@
-#image {
-    height: 87px;
-    width: 100px;
-    background: 
-  url('/sprite/enemies.png') 0px 0px;
-  position: relative;
-  top: 10px;
-  z-index: -1;
-
+.teamlogo {
+    margin-left: 20px;
 }
 
-p {margin: 0px !important;}
-
-#calabaza {
-    height: 100px;
-    width: 120px;
-    background: 
-  url('/sprite/maincharacter.png') 0px -0px;
-}
-/*el frankenstein es  118 de alto por 80 de ancho*
-el gato es 87 x 100 y la calabaza es 100 x 120 (-174)/
-/*los normales son */
-
-.rota-horizontal{
-    -webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
+#navbarNav li {
+    margin-left: 20px !important;
 }
 
 .row {
-    margin-bottom: 64px !important;
-    margin-top: 64px !important;
+    margin-bottom: 32px !important;
+    margin-top: 32px !important;
 }
 
+.img-fluid{
+    margin-bottom: 15px !important;
+}
+.alert-warning{
+    background-color: #ff8e4a !important;
+    color: white;
+    font-weight: 600;
+}
 footer {
-    background-color: #f7f7f7;
+    background-color: #2b2b2b;
     padding: 32px !important;
+    color: white;
 }
 
 .play-button {
@@ -60,38 +46,16 @@ footer > .row {
     margin-bottom: 0px !important;
 }
 
-
-#logo {
-    background: #ccc;
-    width: 150px;
-    height: 60px;
+.btn-success{
+    background-color: #ff8e4a !important;
+    border-color: #ff8e4a !important;
 }
 
-.navbar-toggler {
-    margin-top: 15px;
-}
-
-.btn-log>.nav-item {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-}
-
-@media screen and (min-width: 992px) {
-    .navbar {
-        height: 130px;
-    }
-
-    #logo {
-        width: 260px;
-        height: 90px;
-        position: relative;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        padding-right: 40px;
-    }
-
-    #nav-left {
-        padding-left: 30px;
-    }
+.icon-style span {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 15px;
+    font-size: 18px !important;
+    font-weight: 400;
 }
