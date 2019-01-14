@@ -6,6 +6,51 @@
     margin-left: 20px !important;
 }
 
+.cabecera {
+    height: 350px;
+    background-image: url(/img/naranja.jpg);
+}
+.fila-naranja {
+    background-image: url(/img/naranja.jpg);
+}
+
+.fila-naranja h2, .fila-naranja p {
+    color: white;
+}
+
+.fila-naranja p {
+    font-size: 20px;
+}
+
+.fila-blanca {
+    background-image: url(/img/fondo-blanco.jpg);
+}
+
+.fila-blanca p {
+    font-size: 20px;
+}
+
+.titulo {
+    margin: 32px 0px;
+    padding-top: 25px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a :disabled {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.titulo h1, .titulo h2 {
+    color: white;
+}
+
 .row {
     margin-bottom: 32px !important;
     margin-top: 32px !important;
