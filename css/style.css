@@ -8,10 +8,10 @@
 
 .cabecera {
     height: 350px;
-    background-image: url(/img/naranja.jpg);
+    background-image: url(https://raw.githubusercontent.com/TeamAmeba/TeamAmeba/master/img/naranja.jpg);
 }
 .fila-naranja {
-    background-image: url(/img/naranja.jpg);
+    background-image: url(https://raw.githubusercontent.com/TeamAmeba/TeamAmeba/master/img/fondo-blanco.jpg);
 }
 
 .fila-naranja h2, .fila-naranja p {
@@ -23,7 +23,7 @@
 }
 
 .fila-blanca {
-    background-image: url(/img/fondo-blanco.jpg);
+    background-image: url(https://raw.githubusercontent.com/TeamAmeba/TeamAmeba/master/img/fondo-blanco.jpg);
 }
 
 .fila-blanca p {
